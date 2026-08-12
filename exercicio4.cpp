@@ -1,11 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-	int numero;
-	numero =12;
-	int numeral;
-	numeral =12;
-		printf("o numero eh %i\n",numero);
-		printf("o numero eh %i\n",numeral);
+	float x;
+	//ENTRADA
+	printf("o Ano que ela nasceu foi:");
+	scanf("\n%f",&x);
+	printf("\n Ano dela:%2.f",x);
+	//PROCESSAMENTO
+	float idade = (2026-x)*365;
+	//SAIDA
+	printf("\nela tem:\n%.2f dias de vida",idade);
+	
+	
 	return 0;
-}	
+}

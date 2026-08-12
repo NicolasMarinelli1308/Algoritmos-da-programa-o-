@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-	char letra;
-	letra ='b';
-	printf("letra %c",letra);
-	int x1 = 10;
-	printf("valor eh %i",x1);
-	
-	return 0; 
-	
-	
+	float x;
+	//ENTRADA
+	printf("\no valor em metro eh:");
+	scanf("%f",&x);
+	//PROCESSAMENTO
+	printf("\n%.2f",x);
+	float centimetros = x*100;
+	//SAIDA
+	printf("\nEm centimetros eh %.2f",centimetros);
+				
+		return 0;
 }
